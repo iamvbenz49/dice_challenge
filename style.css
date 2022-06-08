@@ -1,0 +1,53 @@
+body {
+    background-color: darkmagenta;
+    font-family: "Josefin Sans", sans-serif;
+    color: aliceblue;
+}
+
+#header {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.middle,
+#close {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 50px;
+    margin: 0 auto;
+    width: 70%;
+    top: 30px;
+}
+
+.images {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 50%;
+    top: 30px;
+}
+
+button {
+    font-family: "Josefin Sans", sans-serif;
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: darkviolet;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}

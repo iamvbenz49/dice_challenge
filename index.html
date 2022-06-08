@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="/dice_game/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <h1 class="statement">Dice Game</h1>
+    </div>
+    <div class="middle">
+        <div>
+            <h2>Player 1</h2>
+        </div>
+        <div>
+            <h2>Player 2</h2>
+        </div>
+    </div>
+
+    <div class="images">
+        <div id="p1pic">
+            <img src="assets/dice_6.png" id="pic1">
+
+        </div>
+        <div class="btn">
+            <button onclick="diceChange()">Click Me</button>
+        </div>
+        <div id="p2pic">
+            <img src="assets/dice_6.png" id="pic2">
+        </div>
+    </div>
+    <div>
+        <h1 id="close"></h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
